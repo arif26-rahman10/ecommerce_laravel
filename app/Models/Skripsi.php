@@ -8,8 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Skripsi extends Model
 {
     use HasFactory;
-
-    protected $fillable =[
+    protected $filllable = [
         'judul', 'nama', 'nim', 'angkatan', 'dosen_pembimbing1', 'dosen_pembimbing2'
     ];
 }

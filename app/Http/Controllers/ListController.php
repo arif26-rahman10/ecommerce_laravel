@@ -4,17 +4,20 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Admin;
-use App\Models\User;
-use App\Models\Skripsi;
+use App\models\User;
+use App\models\Skripsi;
 
 class ListController extends Controller
 {
-    public function index()
+   public function index()
     {
-        $admins = Admin::all(); //menampilkan semua data pada tabel Admin
-        $users = User::all(); //menampilkan semua data pada tabel user 
-        $skripsis = Skripsi::all(); //menampilkan semua data pada tabel Skripsi
+       $admins = Admin::all();
+        $users = User::all();
+        $skripsis = Skripsi::all();
 
-        return view ('welcome',compact('admins','users', 'skripsis' ));
+        return view('Welcome', compact('admins', 'users', 'skripsis'));
     }
-}
+    }
+ 
+
+

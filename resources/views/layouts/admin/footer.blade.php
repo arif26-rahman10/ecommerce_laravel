@@ -1,10 +1,11 @@
 <footer class="main-footer">
   <div class="footer-left">
-    <p>Copyright &copy;
-      <script>
-        document.write(new Date().getFullYear());
-      </script>
-      , designed & developed by <a href="#" class="text-muted">RPL</a>
-    </p>
+    Copyright &copy;
+     <!-- JavaScript -->
+    <script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+    </script>
+    designed & developed by <a href="#" class="text-muted">RPL</a>
   </div>
 </footer>

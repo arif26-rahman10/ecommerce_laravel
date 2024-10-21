@@ -10,6 +10,10 @@ class Distributor extends Model
     use HasFactory;
 
     protected $fillable = [
-        'nama_dsiributor', 'kota', 'provinsi', 'kontak', 'email'
-        ];
+        'nama_distributor',
+        'kota',
+        'provinsi',
+        'kontak',
+        'email',
+    ];
 }

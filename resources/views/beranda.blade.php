@@ -6,10 +6,14 @@
     <title>Beranda</title>
 </head>
 <body>
-    <h1>Selamat Datang Di Beranda Website Saya</h1>
-    <a href="/">Home</a>
-    <a href="/produk">Produk</a>
-    <a href="/servis">Servis</a>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae deserunt officia distinctio fuga laudantium, beatae accusamus voluptas, quis minima quibusdam delectus eum dignissimos aliquam sapiente esse possimus. Aliquid, iure eligendi.</p>
+    <h1>
+        Selamat datang di Website saya</h1>
+        <a href="/">Home</a><br>
+        <a href="/produk">Produk</a><br>
+        <a href="/service">Service</a><br>
+
+        <h2>Berita</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque libero dolores minus dolorum error obcaecati asperiores, 
+            modi doloribus omnis aspernatur debitis optio nemo provident quidem impedit numquam facere laudantium.</p>
 </body>
 </html>
